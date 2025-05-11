@@ -2,7 +2,6 @@ package aiss.GitHubMiner.service;
 
 
 import aiss.GitHubMiner.model.Commit;
-import aiss.GitHubMiner.model.commitExtra.CommitContent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
@@ -12,12 +11,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 @Service
 public class CommitService {

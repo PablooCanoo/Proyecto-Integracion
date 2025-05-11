@@ -4,13 +4,14 @@ import aiss.GitHubMiner.model.*;
 import aiss.GitHubMiner.gitMinerModel.*;
 import aiss.GitHubMiner.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Repository
+@Component
 public class Transformer {
 
     @Autowired
